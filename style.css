@@ -1,0 +1,60 @@
+
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.loader {
+  font-family: 'Playfair Display', Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-style: normal;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+background: #99CEE7;
+  color: black;
+  font-size:2em;
+  text-align: center;
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.songtitle {display: block;opacity: .4;font-size: 70%;margin-top: 7px;}
+
+
+
+
+
+    body {  font-family: 'Playfair Display', Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+
+}
+   
+
+
+@media (max-width: 768px) {
+  
+.loader {
+ font-size:1.1em;
+}
+
+.songtitle {display: block;opacity: .4;font-size: 85%;margin-top: 7px;}
+
+ .google-maps {
+ /*       position: relative;
+         padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden; 
+    }
+
+  
+}
