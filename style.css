@@ -12,9 +12,9 @@
 }
 
 .spinner > div {
-  width: 14px;
-  height: 14px;
-  background-color: black;
+  width: 12px;
+  height: 12px;
+  background-color: #536A78;
 
   border-radius: 100%;
   display: inline-block;
