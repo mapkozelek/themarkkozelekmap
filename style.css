@@ -65,12 +65,18 @@
   }
 }
 
-.inline {
+.quote-hide {
+  display: none;
+}
+.quote-box {
         -webkit-animation: fadein 1.7s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.7s; /* Firefox < 16 */
         -ms-animation: fadein 1.7s; /* Internet Explorer */
          -o-animation: fadein 1.7s; /* Opera < 12.1 */
-    animation: fadein 1.7s;}
+    animation: fadein 1.7s;
+}
+
+
 
 
 @keyframes fadein {
