@@ -153,6 +153,17 @@ background: #99CEE7;
 
 
 @media (max-width: 768px) {
+       
+       .spinner > div {
+  width: 8px;
+  height: 8px;
+  background-color: #536A78;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
   
 .loader {
  font-size:1.1em;
